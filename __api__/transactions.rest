@@ -1,0 +1,14 @@
+@url = http://localhost:3333/transactions
+
+{{url}}
+
+###
+
+POST {{url}}
+Content-Type: application/json
+
+{
+  "title": "Orange",
+  "value": 1000,
+  "type": "income"
+}
